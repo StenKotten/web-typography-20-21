@@ -20,6 +20,9 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-style: italic;
 }
+.voice2 {
+	font-weight: bold;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -107,10 +110,18 @@ Sounds.
 	background: purple;
 }
 
+.sound9 {
+	background: orangered;
+}
+
 iframe {
 	transition: 1s;
 }
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 iframe {
 	transform: rotate(1turn);
+}
+
+.sound9 iframe {
+	transform: rotate(3turn);
 }
