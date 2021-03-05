@@ -5,6 +5,15 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+body {
+	background-color: black;
+	text-align: center;
+   }
+	
+   p {
+	color: white;
+   }
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -106,22 +115,6 @@ Sounds.
 *********************************************  */
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: purple;
-}
 
-.sound9 {
-	background: orangered;
-}
 
-iframe {
-	transition: 1s;
-}
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
-}
-
-.sound9 iframe {
-	transform: rotate(3turn);
-}
